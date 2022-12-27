@@ -26,7 +26,7 @@ public class ApiTest {
 	@Test 
 	public void GravaApi() {
 		RestAssured .given()
-		.body("{ \"task\": \"Teste Via Api\", \"dueDate\": \"2022-12-20\"}")
+		.body("{ \"task\": \"Teste Via Api\", \"dueDate\": \"2030-12-20\"}")
 		.contentType(ContentType.JSON)
 		.when()
 		.post("/todo")
